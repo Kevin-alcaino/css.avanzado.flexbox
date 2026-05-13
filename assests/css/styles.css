@@ -1,0 +1,8 @@
+.hero {
+    min-height: 500px;
+    background-image: url(../img/reloj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
