@@ -1,18 +1,18 @@
 .cuerpo {
-    background-color: antiquewhite;
+    background-color: rgb(212, 190, 161);
     display: flex; 
     min-height: 100vh; 
 }
- .main {
-    background-color: antiquewhite;
+.main {
+    background-color: rgb(2, 1, 1);
     display: flex;
-    flex-direction: column;
-    width: 90%;
+    flex-direction: column; 
+    width: 75%;
 }
     
 
 .hero {
-    min-height: 500px;
+    min-height: 150px;
     background-image: url(../img/reloj.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -23,46 +23,47 @@
     color: aliceblue;
     gap: 20px;
     }
-.card{
-    display: flex;
-    justify-content: center;
-    background-color: antiquewhite;
-    padding: 1rem;
-    gap: 1rem;
-    min-height: 50%;
-    align-items: center;
-}
-
-.box{
-    border: 2px solid black;
-    padding: 2rem;
-    }
-
 
 .nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: darkgoldenrod;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
-    width: 10%; 
-}
-    
- 
-
-
+    width: 30%; 
 }
 
 nav a{
     text-decoration: none;
-      color: brown;
+      color: rgb(0, 0, 0);
 
 }
 
-
-
-.galeria{
+.mensaje{
     display: flex;
     flex-direction: column;
-    width: 20%;
+}
+
+.conversacion {
+    display: flex; /* Convierte el contenedor en un flexbox */
+    align-items: center; /* Alinea verticalmente los elementos (imagen y texto) al centro */
+    gap: 15px; /* Espacio entre la imagen del avatar y el texto de contactos */
+    margin-bottom: 20px; /* Margen inferior opcional */
+}  
+
+    .contactos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.avatar{
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
