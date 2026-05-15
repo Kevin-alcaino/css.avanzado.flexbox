@@ -1,13 +1,13 @@
+
 .cuerpo {
-    background-color: rgb(212, 190, 161);
     display: flex; 
-    min-height: 100vh; 
+    flex-direction: row;
+ 
 }
 .main {
-    background-color: rgb(2, 1, 1);
+    background-color:  rgb(241, 238, 228); 
     display: flex;
-    flex-direction: column; 
-    width: 75%;
+    width: 80%;
 }
     
 
@@ -28,9 +28,11 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 230, 203);
     padding: 20px;
     width: 30%; 
+    border: 5px solid color rgb(122, 99, 57);
+    
 }
 
 nav a{
@@ -39,22 +41,28 @@ nav a{
 
 }
 
-.mensaje{
-    display: flex;
-    flex-direction: column;
-}
 
 .conversacion {
-    display: flex; /* Convierte el contenedor en un flexbox */
-    align-items: center; /* Alinea verticalmente los elementos (imagen y texto) al centro */
-    gap: 15px; /* Espacio entre la imagen del avatar y el texto de contactos */
-    margin-bottom: 20px; /* Margen inferior opcional */
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    
 }  
 
     .contactos{
     display: flex;
     flex-direction: column;
+}
 
+.contactos h3 {
+    margin: 0;          
+    line-height: 1.2;    
+}
+
+.contactos p {
+    margin: 0;           
+    font-size: 0.9rem;   
+    color: #555;         
 }
 
 .avatar{
