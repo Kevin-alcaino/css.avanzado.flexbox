@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
 .cuerpo {
     display: flex; 
     flex-direction: row;
