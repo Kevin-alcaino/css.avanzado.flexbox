@@ -1,5 +1,6 @@
 
-# Desafio N°1 Flexbox (CSS AVANZADO)
+# Desafío sistema de mensajería.
+
 El desafío consiste en replicar un layout de una pagina de sistema de mensajería.
 
 
