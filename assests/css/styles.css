@@ -32,7 +32,7 @@ body {
     gap: 2rem;
     background-color: rgb(245, 230, 203);
     padding: 20px;
-    width: 35%; 
+    width: 30%; 
     border: 5px solid color rgb(122, 99, 57);
     
 }
@@ -81,8 +81,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 65%;
+    width: 70%;
 }
+
 /*logo*/
 
 .logo {
