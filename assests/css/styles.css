@@ -71,6 +71,7 @@ body {
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+ flex-shrink: 0;
 }
 
 /*main*/
