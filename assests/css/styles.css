@@ -12,7 +12,7 @@ body {
 /*Hero*/
 
 .hero {
-    min-height: 240px;
+    min-height: 200px;
     background-image: url(https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2025/10/rk7hH4KAplx.jpeg?impolicy=Resize&width=2654&height=804);
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,6 @@ body {
     align-items: end;
     color: aliceblue;
     gap: 20px;
-    background-size: cover;
     }
 
 /*nav*/
