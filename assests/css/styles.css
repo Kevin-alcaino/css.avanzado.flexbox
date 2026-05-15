@@ -9,6 +9,7 @@ body {
  
 }
     
+
 /*Hero*/
 
 .hero {
@@ -24,6 +25,7 @@ body {
     gap: 20px;
     }
 
+
 /*nav*/
 
 .nav {
@@ -36,7 +38,6 @@ body {
     border: 5px solid color rgb(122, 99, 57);
     
 }
-
 
 .conversacion {
     display: flex; 
@@ -108,7 +109,6 @@ body {
     align-items: center;
 
 }
-
 
 footer {
     width: 100%;       
