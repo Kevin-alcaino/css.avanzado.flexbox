@@ -8,14 +8,8 @@ body {
     flex-direction: row;
  
 }
-.main {
-    background-color:  rgb(241, 238, 228); 
-    display: flex;
-    align-items: center;
-    padding: 0 0 0 80px ;
-    width: 80%;
-}
     
+/*Hero*/
 
 .hero {
     min-height: 150px;
@@ -30,21 +24,29 @@ body {
     gap: 20px;
     }
 
+    /*main*/
+
+.main {
+    background-color:  rgb(241, 238, 228); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 80px ;
+    width: 60%;
+}
+
+/*nav (Panel Izquierdo)*/
+
 .nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     background-color: rgb(245, 230, 203);
     padding: 20px;
-    width: 30%; 
+    width: 40%; 
     border: 5px solid color rgb(122, 99, 57);
     
-}
-
-nav a{
-    text-decoration: none;
-      color: rgb(0, 0, 0);
-
 }
 
 
@@ -55,7 +57,7 @@ nav a{
     
 }  
 
-    .contactos{
+.contactos{
     display: flex;
     flex-direction: column;
 }
@@ -80,4 +82,20 @@ nav a{
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+}
+
+/*logo*/
+
+.logo {
+    width: 100%;            
+    max-width: 300px;      
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo img {
+    width: 100%;           
+    height: auto
 }
