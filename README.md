@@ -1,7 +1,7 @@
 
-# Desafío sistema de mensajería.
+# Desafío sistema de mensajería con Flexbox
 
-El desafío consiste en replicar un layout de una pagina de sistema de mensajería.
+El desafío consiste en replicar un layout de una pagina de sistema de mensajería responsiva con Flexbox.
 
 
 ## 🔗 Links
